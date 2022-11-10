@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-color: rgb(4, 4, 77);
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+
+#result {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+
+.cards {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 1.5rem;
+
+
+}
+
+.cards>* {
+    flex: 1;
+    border: 1px solid rgb(4, 4, 77);
+    border-radius: 1rem;
+}
+
+.shapes {
+    color: white;
+    background-color: rgb(4, 4, 77);
+    display: flex;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+}
+
+h4 {
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 60%;
+    height: 1.6rem;
+    border: 2px solid rgb(4, 4, 77);
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    padding-left: 10px;
+
+}
+
+
+
+button {
+    color: white;
+    background-color: rgb(4, 4, 77);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(81, 166, 251);
+}
+
+.buttons {
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
