@@ -98,3 +98,13 @@ button:active{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media(max-width:600px){
+    .cards{
+        flex-direction: column
+    }
+
+    .circle{
+        margin-bottom: 2rem;
+    }
+}
